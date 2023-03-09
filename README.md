@@ -30,7 +30,7 @@ Predictive Features with some of the strongest correlations:
 
 <img width="458" alt="spec_cent_mean_vs_mfcc2_mean" src="https://user-images.githubusercontent.com/120589094/224121202-7a0ccb86-4ba5-45fd-83ea-1458bdd1ed4d.png">
 
-There is definitely strong correlation between some of these variables. For the most part,it seems the variables that are means are generally correlated with means and variables that are variances are correlated with variances. Genres seem to appear in clusters showing that similar genres likely have similar audio features. 
+For the most part,it seems the variables that are means are generally correlated with means and variables that are variances are correlated with variances. Genres seem to appear in clusters showing that similar genres likely have similar audio features. We will drop the columns mfcc2_mean, spectral_centroid_mean, and rolloff_mean in order to remove correlation close that is at or over 0.9 or -0.9.
 
 ## Modeling
 If we know that our data contains 10 genres of 100 samples each, then it reasons that our **model-less baseline** accuracy would be 10%; meaning that if we predicted that every song sample was 1 genre, we would be right 10% of the time. That's a pretty low baseline so I'm confident our model will perform better.
@@ -42,7 +42,7 @@ Our best model seemd to be our 11th Model that was a tuned stack of 5 different 
 Although it still overfit on the training data (**96.75%** accuracy score), our test accuracy score was the highest we've seen at **82%**.
 
 ## Evaluation
-
+Let's take a look at our best model's confusion matrix.
 ![11th_Model_Confusion_Matrix](https://user-images.githubusercontent.com/120589094/224121565-6fcad1a1-75cf-435c-b710-8ce7e4b9fa80.png)
 
 In our final model, our accuracy, precision, and recall all scored 70% or higher on unseen/test data which is a promsing sign of the model's success.
