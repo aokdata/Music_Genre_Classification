@@ -43,6 +43,7 @@ Although it still overfit on the training data (**96.75%** accuracy score), our 
 
 ## Evaluation
 Let's take a look at our best model's confusion matrix.
+
 ![11th_Model_Confusion_Matrix](https://user-images.githubusercontent.com/120589094/224121565-6fcad1a1-75cf-435c-b710-8ce7e4b9fa80.png)
 
 In our final model, our accuracy, precision, and recall all scored 70% or higher on unseen/test data which is a promsing sign of the model's success.
