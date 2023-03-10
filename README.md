@@ -52,3 +52,12 @@ In our final model, our accuracy, precision, and recall all scored 70% or higher
 Our results show that the audio data of a song is similar to other songs in their genre and thus can be used to separate and classify music. Our results also shows that this is a difficult problem as genres overlap and some genres can be mistaken for others quite often (for example: 3 reggae songs being classified as hiphop).
 
 This model was limited by the amount of data I had for each of the 10 genres (only 100 samples each). For a more accurate model, I would spend time increasing the size of my data and well as try to better select which columns/features to extract from the audio files to begin with. I would also increase the number of genres as the dataset grows so that it can be more applicable to unseen data.
+
+## Repository Structure
+```
+├── data
+├── .gitignore
+├── presentation.pdf
+├── Music_Genre_Classification.ipynb
+└── README.md
+```
