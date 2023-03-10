@@ -5,19 +5,19 @@ Categorizing songs based on extracted attributes from audio files. Data from the
 *Spectrogram of jazz00000.wav audio file*
 
 ## Overview
-An indigenous music researcher (musicologist) is recording cultural music in the field and wants to know what genre to categorize his recordings. He think that maybe by finding what modern genre a recording is classified as will help explain which modern genres are influenced by traditional music. (Jazz being influenced by African rhythms and Bluegrass from traditional Irish music). 
+A DJ has a disorganized collection of audio tracks from recording samples over the years. The DJ wants to be able to sort each of these samples into the appropriate genres to make them easy to catalog and search through.
 <br>
 <br>
-To help in this research, I built a tuned stacked classification model which uses extracted data from an audio file. The final model was accurately classifying audio files into genres 82% of the time. 
+Since the DJ has no information on the samples but their audio files, we have been enlisted to create a classification model that can sort the audio tracks into genres. The final model was accurately classifying audio files into genres 82% of the time. 
 <br>
 <br>
 This model was limited by the amount of data I had for each of the 10 genres (only 100 samples each). For a more accurate model, I would spend time increasing the size of my data and well as try to better select which columns/features to extract from the audio files to begin with. I would also increase the number of genres as the dataset grows so that it can be more applicable to unseen data.
 
 ## Business Understanding
-An indigenous music researcher (musicologist) is recording cultural music in the field and wants to know what genre to categorize his recordings. He think that maybe by finding what modern genre a recording is classified as will help explain which modern genres are influenced by traditional music. (Jazz being influenced by African rhythms and Bluegrass from traditional Irish music). 
+A DJ has a disorganized collection of audio tracks from recording samples over the years. The DJ wants to be able to sort each of these samples into the appropriate genres to make them easy to catalog and search through.
 <br>
 <br>
-In order to help the musicologist, I am building a model which can classify a recording into a genre based on the extracted data from an audio file.
+Since the DJ has no information on the samples but their audio files, we have been enlisted to create a classification model that can sort the audio tracks into genres.
 
 ## Data Understanding
 I chose to use ["GTZAN Dataset - Music Genre Classification" from Kaggle](https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification) which is a dataset of 1000 audio tracks of a 30-second duration. The 1000 rows of data are evenly divided into 10 genres with 100 tracks each. All the original audio files are in 22050Hz Mono 16-bit files in .wav format.
