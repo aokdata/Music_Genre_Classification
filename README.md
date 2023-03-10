@@ -57,7 +57,7 @@ This model was limited by the amount of data I had for each of the 10 genres (on
 ```
 ├── data
 ├── .gitignore
-├── README.md
 ├── Music_Genre_Classification.ipynb
+├── README.md 
 └── presentation.pdf
 ```
