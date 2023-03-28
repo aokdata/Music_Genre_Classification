@@ -1,8 +1,7 @@
 # Music_Genre_Classification
 Categorizing songs based on extracted attributes from audio files. Data from the GTZAN Dataset - Music Genre Classification
 
-![jazz00000](https://user-images.githubusercontent.com/120589094/228378619-4e492ca1-32c9-4a1b-8613-cf4b81e1e71e.png)
-*Spectrogram of jazz00000.wav audio file*
+![jazz00000](https://user-images.githubusercontent.com/120589094/228378619-4e492ca1-32c9-4a1b-8613-cf4b81e1e71e.png)*Spectrogram of jazz00000.wav audio file*
 
 ## Overview
 A DJ has a disorganized collection of audio tracks from recording samples over the years. The DJ wants to be able to sort each of these samples into the appropriate genres to make them easy to catalog and search through.
