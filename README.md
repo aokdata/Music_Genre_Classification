@@ -54,9 +54,9 @@ This model was limited by the amount of data I had for each of the 10 genres (on
 
 ## Repository Structure
 ```
-├── data
-├── .gitignore
-├── Music_Genre_Classification.ipynb
-├── README.md 
-└── presentation.pdf
+├── [data](https://github.com/aokdata/Music_Genre_Classification/tree/main/data)<br>
+├── [.gitignore] (https://github.com/aokdata/Music_Genre_Classification/blob/main/.gitignore)<br>
+├── [Music_Genre_Classification.ipynb] (https://github.com/aokdata/Music_Genre_Classification/blob/main/Music_Genre_Classification.ipynb)<br>
+├── [README.md] (https://github.com/aokdata/Music_Genre_Classification/blob/main/README.md)<br>
+└── [presentation.pdf] (https://github.com/aokdata/Music_Genre_Classification/blob/main/presentation.pdf)<br>
 ```
