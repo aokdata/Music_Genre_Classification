@@ -53,10 +53,9 @@ Our results show that the audio data of a song is similar to other songs in thei
 This model was limited by the amount of data I had for each of the 10 genres (only 100 samples each). For a more accurate model, I would spend time increasing the size of my data and well as try to better select which columns/features to extract from the audio files to begin with. I would also increase the number of genres as the dataset grows so that it can be more applicable to unseen data.
 
 ## Repository Structure
-```
+<br>
 ├── [data](https://github.com/aokdata/Music_Genre_Classification/tree/main/data)<br>
 ├── [.gitignore] (https://github.com/aokdata/Music_Genre_Classification/blob/main/.gitignore)<br>
 ├── [Music_Genre_Classification.ipynb] (https://github.com/aokdata/Music_Genre_Classification/blob/main/Music_Genre_Classification.ipynb)<br>
 ├── [README.md] (https://github.com/aokdata/Music_Genre_Classification/blob/main/README.md)<br>
 └── [presentation.pdf] (https://github.com/aokdata/Music_Genre_Classification/blob/main/presentation.pdf)<br>
-```
